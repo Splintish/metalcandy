@@ -1,0 +1,66 @@
+/*Get Fonts*/
+@font-face
+{
+font-family: Liberation;
+src: url("/fonts/LiberationSans-Regular-webfont.woff")
+src: url("/fonts/LiberationSans-Bold-webfont.woff")
+}
+/*id's*/
+body {
+    background-image: url(/images/background_au_lowres.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 10px;
+    font-family: Liberation, Helvetica, Arial, sans-serif;
+}
+#header {
+    width: 450px;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.81);
+}
+#navigation {
+    list-style-type:none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    width: 0px;
+}
+#main {
+    width: 430px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    color: #000;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.81);
+}
+/* Navigation List Properties*/
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+li
+{
+float: left
+}
+a:link,a:visited
+{
+display:block;
+width:99px;
+font-weight:bold;
+color:#000;
+background-color:rgba(227, 227, 30, 0.48);
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:hover,a:active
+{
+background-color:#eb5555;
+}
