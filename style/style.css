@@ -7,7 +7,7 @@ src: url("/fonts/LiberationSans-Bold-webfont.woff")
 }
 /*id's*/
 body {
-    background-image: url(/images/background_au_lowres.jpg);
+    background-image: url(../images/background_au_lowres.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
